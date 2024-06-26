@@ -1,0 +1,32 @@
+.main {
+  width: fit-content;
+}
+.title {
+  font-weight: bold;
+  font-size: 30px;
+  width: fit-content;
+}
+.list {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.button {
+  width: 150px;
+  padding: 10px 14px;
+}
+
+.cadi {
+  width: fit-content;
+}
+.freeEx {
+  align-items: center;
+  justify-content: center;
+}
+.blue {
+  border: 1px solid blue;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  padding: 10px 10px;
+}
