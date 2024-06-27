@@ -1,0 +1,28 @@
+.page {
+  width: 100vw;
+}
+.card {
+  background-image: url(danang.jpg);
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+}
+.arrival {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px 20px;
+}
+
+.seemore {
+  padding: 20px 20px;
+  margin-top: 300px;
+}
+.button {
+  font-weight: bold;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  width: 100px;
+  padding: 10px;
+}
