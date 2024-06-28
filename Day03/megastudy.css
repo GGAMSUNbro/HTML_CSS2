@@ -1,0 +1,98 @@
+.page {
+  width: 100vw;
+}
+.studybooks {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 50px;
+}
+header {
+  display: flex;
+  padding: 20px;
+  width: 100vw;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.links {
+  display: flex;
+  width: 400px;
+
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: space-between;
+}
+.links:hover {
+  cursor: pointer;
+}
+.aboutlist:hover {
+  cursor: pointer;
+}
+.aboutlist {
+  width: 80px;
+  height: 80px;
+  margin-top: 50px;
+}
+
+.firstsection {
+  width: 100vw;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+h5 {
+  font-size: 60px;
+  font-weight: bold;
+}
+.hashtag {
+  display: flex;
+  padding: 30px;
+  width: 1000px;
+  height: fit-content;
+  gap: 20px;
+}
+.buttons {
+  border: 1px solid black;
+  border-radius: 20px;
+  height: fit-content;
+  width: fit-content;
+}
+.arrow {
+  border: 1px solid grey;
+  border-radius: 50%;
+  font-size: 30px;
+  width: fit-content;
+  height: fit-content;
+}
+.secondsection {
+  display: flex;
+  width: 100vw;
+  gap: 100px;
+}
+.bookcard {
+  height: 200px;
+  width: 200px;
+  background-color: #f5f8fd;
+}
+.imagebox {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+.imagebox > img {
+  width: 200px;
+  height: 200px;
+}
+.bookcard {
+  display: flex;
+  flex-direction: column;
+}
+.bookcard > span {
+  font-size: 10px;
+  font-weight: bold;
+}
