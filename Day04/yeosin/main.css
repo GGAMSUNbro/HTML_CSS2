@@ -1,0 +1,44 @@
+.first {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  background-image: url(image.jpg);
+  color: white;
+  background-repeat: no-repeat;
+  background-image: cover;
+
+  display: flex;
+}
+.contents {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.standard {
+  font-size: 40px;
+}
+
+.discount {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.coupon {
+  font-size: 20px;
+}
+
+.download {
+  padding-top: 30px;
+  display: flex;
+  gap: 50px;
+  width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.button {
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: grey;
+}
