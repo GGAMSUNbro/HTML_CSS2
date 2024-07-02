@@ -28,3 +28,20 @@ nav {
 .button:hover .mask {
   opacity: 1;
 }
+
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  nav {
+    max-width: 400px;
+  }
+  .links {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    padding: 20px 40px;
+  }
+}

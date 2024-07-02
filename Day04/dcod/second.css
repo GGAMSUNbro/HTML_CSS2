@@ -1,10 +1,47 @@
 .second {
   width: 100vw;
-  height: 100vh;
+  padding: 100px 0;
+
+  background-color: white;
+}
+.second > nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0 auto;
+  align-items: center;
+  margin-top: 200px;
+  max-width: 1200px;
+}
+.second > h1 {
+  font-size: 100px;
+}
+.news {
+  margin-top: 200px;
+}
+.paper {
+  display: flex;
+  width: fit-content;
+  gap: 50px;
+}
+.imageBox {
+  width: 400px;
+  height: 200px;
+}
+.imageBox > img {
+  width: 400px;
+  height: 200px;
+}
+.colum {
+  display: flex;
+  flex-direction: column;
 }
 
-.recent {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+@media (max-width: 768px) {
+  .news {
+    max-width: 400px;
+  }
+  .paper {
+    display: flex;
+    flex-direction: column;
+  }
 }

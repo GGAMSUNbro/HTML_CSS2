@@ -9,7 +9,7 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-h1 {
+.contents > h1 {
   color: white;
   font-size: 100px;
 }
@@ -28,4 +28,14 @@ h4 {
 }
 .mask {
   opacity: 0;
+}
+
+@media (max-width: 768px) {
+  .contents {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

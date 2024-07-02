@@ -1,0 +1,45 @@
+footer {
+  width: 100vw;
+  height: 200px;
+  background-color: black;
+  color: grey;
+}
+.upper {
+  width: 100vw;
+  max-width: 1200px;
+  margin-top: 100px;
+  margin: 0 auto;
+}
+.IR {
+  display: flex;
+  justify-content: space-between;
+}
+.coname {
+  font-size: 30px;
+}
+.info {
+  justify-content: space-between;
+}
+.lower {
+  width: 100vw;
+  max-width: 1200px;
+  margin-top: 100px;
+  margin: 0 auto;
+}
+.adress {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  . {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .paper {
+    display: flex;
+    flex-direction: column;
+  }
+}

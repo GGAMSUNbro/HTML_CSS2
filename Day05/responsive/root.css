@@ -1,0 +1,14 @@
+:root {
+  /* color */
+  --color-blue01: #2379ff;
+  --color-blue02: #002765;
+  --color-blue03: #d8f3ff;
+}
+
+/* 모바일시 max-width: 300px */
+/* header: 햄버거 */
+/* section1> 폰트 수정 */
+/* section2 flex-column */
+/* footer> upper column, down-center */
+@media (max-width: 300px) {
+}
