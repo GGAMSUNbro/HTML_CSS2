@@ -1,0 +1,32 @@
+.second {
+  background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-LHD-v2.jpg);
+  height: 100vh;
+  width: 100vw;
+  max-width: 860px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  color: white;
+}
+.name {
+  position: absolute;
+  top: 100px;
+  padding: 20px;
+  align-items: center;
+  color: black;
+  font-size: 50px;
+}
+.ment > h4 {
+  font-size: 50px;
+}
+
+.ment > h1 {
+  font-size: 20px;
+}
+.apply {
+  position: absolute;
+  bottom: 100px;
+  border: 1px solid white;
+  padding: 5px 100px;
+}
