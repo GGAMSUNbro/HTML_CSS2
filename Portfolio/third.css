@@ -1,0 +1,21 @@
+.third {
+  width: 100vw;
+  margin-top: 100px;
+}
+
+.case {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.case > h4 {
+  font-size: var(--font-size-big);
+}
+
+.aboutwork {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}

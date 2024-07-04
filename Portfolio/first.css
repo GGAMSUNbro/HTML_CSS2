@@ -1,0 +1,14 @@
+.first {
+  width: 100vw;
+}
+.mainImage {
+  width: 1200px;
+  height: 600px;
+  background-size: auto;
+  margin: 0 auto;
+}
+
+.mainImage > img {
+  width: 1000px;
+  height: 600px;
+}
